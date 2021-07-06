@@ -8,15 +8,16 @@ body{
 }
 p{
     color: #0000FF;
-    font-size: 20px;    
+    font-size: 30px;
+    font-weight: bold;    
     font-family:Helvetica;
     text-align: left;
-    letter-spacing: 10px;
+    
 
 }
 a{
-    left: 400px;
-    height: 400px;
-    padding: 20px;
-    margin: 50px;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
 }

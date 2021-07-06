@@ -1,0 +1,23 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:50px;
+    font-size: 17px;
+}
+p{
+    color: #0000FF;
+    font-size: 20px;
+    font-family:Helvetica;
+    text-align: left;
+    /*text-transform: uppercase; lowercase (letras em caixa baixa) e uppercase (texto em caixa alta)*/
+    letter-spacing: 5px; /*espaçamento entre letras*/
+    word-spacing: 20px; /*espaçamento entre palavras*/
+    line-height: 25px; /*altura da linha*/
+    text-shadow: 2px 2px 3px #000000; /*efeito de sombreado direita, para baixo, efeito de esfumaçado, cor*/
+    
+
+    
+
+}

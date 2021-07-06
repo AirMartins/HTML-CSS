@@ -1,0 +1,17 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:50px;
+    font-size: 17px;
+}
+h1{
+    font-family: 'Dancing Script';
+}
+p{
+    
+    color: #0000FF;
+    font-size: 30px;
+    font-family: 'Qahiri', sans-serif;
+}

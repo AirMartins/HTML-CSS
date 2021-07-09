@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>    
+<head>
+<meta charset="UTF-8" />
+    <title>Página de Teste</title>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="estilo.css"/>
+
+</head>
+
+<body>      
+    
+    <form method="POST" action="paginas/Login.html" enctype="multipart/form-data"><!--OBS: sempre que tenho um arquivo no formulario-->
+        <input type="hidden" name="country" value="jp"/>                          <!--deve-se inserir enctype="multipart/form-data" para conversao em bites-->
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <label>
+                Nome:<br/>
+                <input type="text" name="name" required  >
+            </label><br/>                                                             
+            <label>   
+                Sobrenome:<br/>                                                               
+                <input type="text" name="lastname" >
+            </label><br/>
+            <label>   
+                Foto:<br/>                                                               
+                <input type="file" name="photo" accept="application/pdf"><!-- type="file" cria um botão para envio de arquivos-->
+            </label><br/>                                        <!--accept="image/*" diz qual tipo de arquivo pode ser tranferido, sem ele seria qualquer tipo-->
+                                                                 <!--accept="application/pdf" diz qual tipo de extenção do arquivo ( neste PDF) pode ser tranferido, sem ele seria qualquer tipo-->
+        </fieldset>
+        <fieldset>
+            <legend>Dados Profissionais</legend>
+            <label>
+                Nome da Empresa:<br/>
+                <input type="text" name="companyname">
+            </label><br/>
+            <label>
+                Cargo na Empresa:<br/>
+                <input type="text" name="companyjobtitle">
+            </label><br/>   
+        </fieldset>
+        <input type="submit" value="cadastrar"/>
+    </form>
+
+</body>
+</html>

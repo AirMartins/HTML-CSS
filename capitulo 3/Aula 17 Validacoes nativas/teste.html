@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>    
+<head>
+<meta charset="UTF-8" />
+    <title>Página de Teste</title>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="estilo.css"/>
+
+</head>
+
+<body>      
+    
+    <form method="POST" action="paginas/Login.html">
+        <fieldset><!--cria um conjunto de campos (retângulo) na area, (separação)-->
+            <legend>Dados Pessoais</legend>
+            <label>
+                Nome<br/>
+                <input type="text" name="name" required minlength="2" maxlength="30" ><!--"required"faz com que o campo Nome seja obrigatório o preenchimento-->
+            </label><br/>                                                             <!--"minlength" quantidade mínina de caracter no campo -->
+            <label>                                                                   <!--"maxlength" quantidade máxima de caracter no campo -->
+                Sobrenome<br/>
+                <input type="text" name="lastname"  required minlength="2" maxlength="50">
+            </label><br/>
+        </fieldset>
+        <fieldset><!--cria um conjunto de campos (retângulo) na area, (separação)-->
+            <legend>Dados Profissionais</legend>
+            <label>
+                Nome da Empresa<br/>
+                <input type="text" name="companyname">
+            </label><br/>
+            <label>
+                Cargo na Empresa<br/>
+                <input type="text" name="companyjobtitle">
+            </label><br/>   
+        </fieldset>
+        <input type="submit" value="cadastrar"/>
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>    
+<head>
+<meta charset="UTF-8" />
+    <title>Página de Teste</title>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="estilo.css"/>
+
+</head>
+
+<body>      
+    
+    <form method="POST" action="paginas/Login.html">
+        <fieldset><!--cria um conjunto de campos (retângulo) na area, (separação)-->
+            <legend>Dados Pessoais</legend>
+            <label>
+                Nome:<br/>
+                <input type="text" name="name" required  >
+            </label><br/>                                                             
+            <label>   
+                Sobrenome:<br/>                                                               
+                <input type="text" name="lastname" >
+            </label><br/>
+            <label>   
+                E-mail:<br/>                                                               
+                <input type="text" name="E-mail" required pattern="^[a-zA-Z0-9_.-]+@[a-zA-Z0-9-]+.[a-zA-Z0-9-.]+$"title="Endereço de E-mail"/><!--pattern="" padrão a ser seguido no texto este de e mail retirado da internnet-->
+            </label><br/>
+            <label>   
+                Idade:<br/>                                                               
+                <input type="number" name="age" min="18" max="120" > <!-- "step = 2"aumentar o campo idade conforme o valor informado neste caso de 2 em 2-->
+                                                          <!--"min=18" numero mínimo para o campo exemplo minimo de 18 anos -->
+                                                          <!--"max=120" numero mínimo para o campo exemplo minimo de 120 anos -->
+            </label><br/>
+            <label>   
+                Data de Nascimento:<br/>                                                               
+                <input type="date" name="birthdate" max="2021-07-09" ><!--neste caso não consegue colocar uma data inferior a 14 junho de 2021-->
+            </label><br/>
+        </fieldset>
+        <fieldset><!--cria um conjunto de campos (retângulo) na area, (separação)-->
+            <legend>Dados Profissionais</legend>
+            <label>
+                Nome da Empresa:<br/>
+                <input type="text" name="companyname">
+            </label><br/>
+            <label>
+                Cargo na Empresa:<br/>
+                <input type="text" name="companyjobtitle">
+            </label><br/>   
+        </fieldset>
+        <input type="submit" value="cadastrar"/>
+    </form>
+
+</body>
+</html>

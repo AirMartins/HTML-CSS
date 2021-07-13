@@ -5,18 +5,25 @@
 body{
     margin:50px;
     font-size: 17px;
+    
 }
 
-fieldset {
-    background-color: #eee;
-    margin-bottom: 20px;/*margim parte de baixo*/
-    border: 2px solid #ff0000;
+h1{
+    font-family: 'Indie Flower', 'cursive';       
 }
-legend{
-    font-family: 'Indie Flower', 'cursive';
-    background-color: #0000ff;
-    color: #ffffff;
-    padding: 5px;
+.conteiner{
+    width: calc(100% - 20px);
+    height: 200px;
+    font-size: 40px;    
+    font-family: Verdana, 'Geneva', Tahoma, sans-serif;
+    background-color: #ccc;
+    color: rgb(87, 63, 81); 
+    border: 4px double #00dd00;/*insere uma borda no conteiner*/
 }
 
+.conteiner strong{
+    border: 3px dotted #000;/*insere uma borda do tipo dotted na strong */
+}
 
+/*obs: normalmente são erdadas características do texto ex: tamanho, 
+cor e algumas propiedades não serão erdadas ex: tamanho , cor de fundo etc..*/

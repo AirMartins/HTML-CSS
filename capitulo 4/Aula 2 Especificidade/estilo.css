@@ -1,0 +1,22 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:50px;
+    font-size: 17px;
+    
+}
+
+h1{
+    font-family: 'Indie Flower', 'cursive';       
+}
+.conteiner{ /*aqui ocorre a especificidade pois esta direcionando a div "conteiner"*/
+    color: #ff0000;
+   
+}
+div{ /*aqui esta sendo generalizado pois aplica a todas div menos a qual foi especificada ex: a citada acima*/
+    color: blue;
+}
+
+

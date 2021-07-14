@@ -1,0 +1,32 @@
+*{/*propriedade serão aplicada a todosos elementos da tela*/
+    box-sizing: border-box;/*"border-box" este tamanho vai incluir sim tanto o pading quanto o border
+                            "content-box" vem por padrão, o tamanho de um elemnento e definido pelo conteúdo dele, isso não conta o pading quanto o border*/
+}
+
+body{
+    margin: 0;
+   
+    
+    
+}
+.box{
+    
+    font-size: 20px;
+    color: blue;
+}
+h1{
+    font-size: 30px;  
+    color: red;    
+}
+.box h1{
+    font-size: inherit;/*h1 vai herdar as características de box*/
+    color: inherit;
+}
+
+
+/*OBS:faz com que  herde as características  
+*/
+
+
+
+

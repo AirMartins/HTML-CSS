@@ -2,12 +2,9 @@
     box-sizing: border-box;/*"border-box" este tamanho vai incluir sim tanto o pading quanto o border
                             "content-box" vem por padrão, o tamanho de um elemnento e definido pelo conteúdo dele, isso não conta o pading quanto o border*/
 }
-html{
-    
-    font-size: 20px;
-}
+
 body{
-    margin:50px;
+    margin:0px;
     font-size: 20px;
     font-family: Courier;
     
@@ -18,21 +15,19 @@ h1{
     font-size: 20px;      
 }
 .box{
-    width: 30ex;/*largura*/
+    background-color: #999;
     
-   background-color: #999;
-}
-.box-interno {
-    background-color: #222;
-    color: #fff;
-    width: 11ch;
-    
+    height: 50vmin;
+
+
 }
 
-/*
-% - unidade de porcentagem
-ex - vai ser a altura da letra "x" na fonte que se esta aplicando
-ch - caracter unidade (só funciona com fontes mono-space (mesmo tamanho)
+
+/*Unidades de medidas
+vh - "height: 100vh;" área disponível visivelmente ao usuário 
+vw - "width: 100vw;" área da largura disponível visivelmente ao usuário
+vmin - Entre a altura e largura pega quem é o menor ex: height: 50vmin;
+vmax - Entre a altura e largura pega quem é o maior ex: height: 50vmax;
 */
 
 

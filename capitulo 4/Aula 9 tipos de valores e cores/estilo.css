@@ -1,0 +1,31 @@
+*{/*propriedade serão aplicada a todosos elementos da tela*/
+    box-sizing: border-box;/*"border-box" este tamanho vai incluir sim tanto o pading quanto o border
+                            "content-box" vem por padrão, o tamanho de um elemnento e definido pelo conteúdo dele, isso não conta o pading quanto o border*/
+}
+
+body{
+    margin: 0;   
+    color: #ff0000;    
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 5px;
+    border: solid 2px currentColor;
+}
+
+
+
+
+
+  /*OBS: Forma de seleção de cores:
+  #00ff0033 - (vermelho,verde,azul) insere os numeros de cada cor que vai de 0 a 9 - A a F sendo este o valor máximo
+  rgb(valor de red, valor de grem, valor de blue) - ex: rgb(255,255,0) valores de 0 ate 255.
+  hsl (valor em % de red, % grem, % blue) - ex: hsl(100%,15%,0).
+  currentColor - efeito herança pega a cor do superior ex de uso :
+
+*/
+
+
+
+

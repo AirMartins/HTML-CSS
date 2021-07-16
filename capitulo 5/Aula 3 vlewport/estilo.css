@@ -13,12 +13,16 @@ h1{
     margin-top: 5px;
     border: solid 2px currentColor;
 }
+.texto{
+    font-family: 'Qahiri', sans-serif;
+    font-size: 30px;
+    background-color: rgb(95, 92, 92);
+    color: ivory;
+    padding: 5px;
+   
+}
 
 
-
-
-
- 
 
 
 

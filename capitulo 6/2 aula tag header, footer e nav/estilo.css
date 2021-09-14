@@ -1,0 +1,11 @@
+body{
+    margin:0;
+}
+nav{
+    height: 100px;
+    background-color: #9999;
+}
+footer {
+    height: 100px;
+    background-color: #cccc;
+}

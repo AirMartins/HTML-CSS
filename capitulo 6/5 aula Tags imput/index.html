@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Página de teste</title>
+        <link rel="stylesheet" href="estilo.css">
+        
+    </head>
+    <body>
+
+       <input type="search" name="search"/><!--Campo de pesquisa da página com "x" para limpara o campo-->
+
+       <form method="POST">
+       <input type="email" name="email" required /><!--usado em formulário "form" o campo e-mail so aceita endereços de e-mail validos-->
+       <input type="submit"value = "enviar"/>
+      </form>
+
+      <form method="POST">
+        <input type="url" name="url" required /><!--usado em formulário "form" o campo url so aceita endereços de url-->
+        <input type="submit"value = "enviar"/>
+       </form>
+
+       <form method="POST">
+        <input type="tel" name="tel" required /><!--muito utilizado em app de cel pois o campo tel abre o teclado numerico porém campo sem validadção-->
+        <input type="submit"value = "enviar"/>
+       </form>
+
+       <form method="POST">
+        <input type="number" required /><!--muito utilizado em app de cel pois o campo tel abre o teclado numerico com barra de seleção-->
+        <input type="submit"value = "enviar"/>
+       </form>
+
+       <form method="POST">
+        <input type="range" min ="1" max= "100" required /><!--slider de posicionamento-->
+        <input type="submit"value = "enviar"/>
+       </form>
+
+       <form method="POST">
+        <input type="we"  required /><!--campo de tada com formatação e calendário, trocando "date" por "month" (abre capo referente a mês ) e "week" referente a semana-->
+        <input type="submit"value = "enviar"/>
+       </form>
+
+       <form method="POST">
+        <input type="time"  required /><!--abre campo referente a tempo-->
+        <input type="submit"value = "enviar"/>
+       </form>
+
+       <form method="POST">
+        <input type="datetime-local"  required /><!--abre campo referente a  date e tempo-->
+        <input type="submit"value = "enviar"/>
+       </form>
+
+       <form method="POST">
+        <input type="color"  required /><!--abre campo de paleta de cores-->
+        <input type="submit"value = "enviar"/>
+       </form>
+
+       
+
+    </body>
+</html>

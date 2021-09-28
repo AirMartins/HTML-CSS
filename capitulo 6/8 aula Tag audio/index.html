@@ -3,12 +3,20 @@
     <head>
         <meta charset="UTF-8" />
         <title>Página de teste</title>
-        <link rel="stylesheet" href="estilo.css">
+        <link rel="stylesheet" href="estilo.css"> 
         
     </head>
     <body>
 
-       
+       <audio controls> <!-- controls é  aloca os controles de audio ou videos sem ele o arquivo estará la mas sem possibilidade de uso-->
+           <source src="audio.mpeg" type="audio/mpeg"  />
+       </audio>
+       <audio controls autoplay loop muted> <!-- autoplay ao abir a página ja inicializa tanto audio (pode ser utilizado em vídeos) muted começa com o volume em 0 ou mudo-->
+        <source src="audio.mpeg" type="audio/mpeg" />
+        </audio>
+        <audio controls preload=""> <!-- preload assim que entrar na página ja inicia o pré-carregamento do arquivo-->
+            <source src="audio.mpeg" type="audio/mpeg" />
+        </audio>
 
        
        

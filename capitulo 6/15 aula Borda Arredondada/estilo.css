@@ -1,0 +1,29 @@
+
+
+body{
+    margin:0;
+    
+}
+#teste {
+    background-color: #999;
+    margin-left: 100px;
+    margin-top: 100px;
+    width: 200px;
+    height: 200px;
+    /*border-radius: 15px; /*border-radius esécifica o tamanho da curvatura de todas as bordas*/
+    border-top-left-radius: 10px; /*somente a borda no topo a esquerda terá curvatura*/
+    border-top-right-radius: 10px; /*somente a borda no topo a direita terá curvatura*/
+    border-bottom-left-radius: 20px; /*somente a borda abaixo a esquerda terá curvatura*/
+    border-bottom-right-radius: 20px; /*somente a borda abaixo a direita terá curvatura*/
+
+}
+input {
+    margin: 100px;
+    margin-top: 100px;
+    border-radius: 20px; /* aplicado borda arredondada no campo de nome*/
+
+}
+
+
+
+

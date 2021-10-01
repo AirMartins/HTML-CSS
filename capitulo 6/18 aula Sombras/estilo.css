@@ -1,0 +1,21 @@
+body{
+    margin:0;
+    
+}
+.exemplo {
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    margin-top: 100px;
+    background-color: green;
+    color: white; 
+    text-shadow:10px 10px 5px black;/*aplica sombra a textos*/
+    box-shadow:10px 10px 5px #8888 ;/*aplica sombra, propriedades: 1º distancia da sombra horizontal, 2º a distancia na vertical (valor + para direita e - esquerda) */
+                 /* 3º valor da efeito de esfumaçado da sombra quanto maior mais espelhada sera, 4º caro da sombra */
+   
+}
+
+
+
+
+

@@ -1,0 +1,31 @@
+/*ANIMAÇÕES*/
+@keyframes exemplo{/*ESTRUTURA DE ANIMAÇOES "@keyframes" e depois o nome a qualquer para a animação*/
+    0% {background-color:red; top: 0%; left: 0%; }
+    5% {background-color: green; top: 0%; left: 50%;}
+    25%{background-color: hotpink; top: 50%; left:50%;}
+    50% {background-color: yellow; top: 30%; left: 0%;}
+    75% {background-color: blue; top: 50%; left: 0%;}
+    100%{background-color: crimson; top: 0%; left: 0%;}
+
+}
+
+body{
+    margin:0;
+    
+}
+.exemplo {
+    width: 150px;
+    height: 150px;
+    
+    position: absolute;
+    background-color: green;
+    animation-name: exemplo; /*aplicando animação*/
+    animation-duration: 5s; /*aplivando o tempo de duração da animação*/
+    animation-delay: 2s;/*antes de começar a animação, período de espera de 2 segundos*/
+    animation-iteration-count: 3;/*numero de repetições da animação*/
+}
+
+
+
+
+

@@ -4,26 +4,20 @@ body{
     margin:0;
     
 }
-#teste {
-    background-color: #999;
-    margin-left: 100px;
+.exemplo {
+    width: 100px;
+    height: 100px;
     margin-top: 100px;
-    width: 200px;
-    height: 200px;
-    /*border-radius: 15px; /*border-radius esécifica o tamanho da curvatura de todas as bordas*/
-    border-top-left-radius: 10px; /*somente a borda no topo a esquerda terá curvatura*/
-    border-top-right-radius: 10px; /*somente a borda no topo a direita terá curvatura*/
-    border-bottom-left-radius: 20px; /*somente a borda abaixo a esquerda terá curvatura*/
-    border-bottom-right-radius: 20px; /*somente a borda abaixo a direita terá curvatura*/
-
-}
-input {
     margin: 100px;
-    margin-top: 100px;
-    border-radius: 20px; /* aplicado borda arredondada no campo de nome*/
+   background:red;/*padronização para caso do navegador não tiver suporte */
+    background:linear-gradient(-75deg,white,blue,red);/* Sintax Padrão: 3 propriedades: 1º direção, 2º a primeira cor, 3ª segunda cor e assim sucessivamente*/
+    background-color: -moz-linear-gradient(white,blue,red); /* coamndo utiliza para sites que não suportam o "gradient" neste caso Mozila*/
+    background-color: -o-linear-gradient(white,blue,red);/*oprera*/
+    background-color: -webkit-linear-gradient(white,blue,red);/*Safari*/
 
 }
 
+/*background:linear-gradient(-75deg,white,blue,red); "-75deg"* unidade de medida em graus para efeito do dergrade/
 
 
 

@@ -7,12 +7,20 @@ body{
     height: 150px;
     margin: auto;
     margin-top: 100px;
-    background-color: green;
-     
-    
-   
+    background-color: green; 
+    transition: all 1s linear; /*como a transition vai ser aplicada "all=toda ", "1s = tempo de duração", "linear = mesma velocidade do início ao fim"*/
 }
-
+ .exemplo:hover{ /* ao passar o maouse ele aplicará essas propiedades*/
+     width: 300px; /*irá aumentar de tamanho de 150px para os atuais 300px*/
+     background-color: chartreuse;
+ }
+ a {
+     color: black;
+     transition: all 1s linear;
+ }
+ a:hover {
+     color: blue;
+ }
 
 
 

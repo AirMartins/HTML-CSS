@@ -2,31 +2,18 @@ body{
     margin: 10px;;
     
 }
-header{
-    background-color: #555;
-    min-height: 100px;
+
+
+figure{
+    padding: 5px;
+    margin: 0px;
+    border: 1px solid #CCC;
 }
-.container{
-    display: flex;
-    min-height: 600px;
-}
- 
-    aside{
-    background-color: #888;
-    width: 200px;
- 
-}
-main{
-   flex: 1;
-   background-color: #999;
- 
-}
-footer{
-    background-color: #555;
-    min-height: 100px;
-}
-address{
-    color: crimson;
+figcaption{
+    background-color: black;
+    color: blanchedalmond;
+    text-align: center;
+    padding: 2px;
 }
 
 

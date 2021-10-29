@@ -10,45 +10,25 @@
         <style>
             .conteiner{
                 display: flex; /*ativa o Flexbox, organização por padrão e horizontal*/
-                flex-direction: row;/* row=Linha,column = coluna, row-reverse=Linha inversa, column-reverse = coluna reversa*/
-                background-color: #cccc;
-                margin: 10px;
+                background-color: #dddddd;
+                height: 500px;
+                flex-direction:column ;
+                align-items: center;/*alinha meus divs na vertical*/
+                /*justify-content:center;/* Center=conteúdo será justificado no meio do conteiner,felx start sera o alinhamento a partir do flex, flex-end será alinhado onde acaba o flex(direita),
+                 space-around espaçamento entre itens seja igualmente dividito, space-between 1 e ultimo itens no inicio e final da tela e os outros divididos entre os espaços, space-around espaçamentos iguais*/ 
+                /*flex-flow:row wrap;column wrap = um abaixo do outro e row wrap será na mesma linha e quando não couber passa para proxima linha*/
+                /*flex-wrap: nowrap; nowrap = faz com que o tamanho da linha seja definido em 1 lugar depois o tamando da div, e usada por padrão*/
+                /* wrap = esta tatg faz com que o div que tem tamanho definido quando nao cabe na mesma linha apasse para proxima linha*/
+               
             }
-            .div1{
-                flex: 1;
+            .conteiner div{
+                width: 100px;  
+                height: 100px;                                        
                 background-color: #FF0000;
                 margin: 10px;
                 padding: 10px;
                 font-size: 20px black;
-                margin: 10px;
-            }
-            .div2{
-                flex: 1;
-                background-color: #FF0000;
-                margin: 10px;
-                padding: 10px;
-                font-size: 20px black;
-                margin: 10px;
-
-            }
-
-            .div3{
-                flex: 1;/*aqui informo que esta div vai ter o dobro do tamanha das outras duas*/
-                background-color: #FF0000;
-                margin: 10px;
-                padding: 10px;
-                font-size: 20px black;
-                margin: 10px;
-
-            }
-            .div4{
-                flex: 3;
-                background-color: #FF0000;
-                margin: 10px;
-                padding: 10px;
-                font-size: 20px black;
-                margin: 10px;
-
+                
             }
                
      
@@ -64,13 +44,7 @@
         <div class="div1">1</div>
         <div class="div1">2</div>
         <div class="div3">3</div>
-        <div class="div4">4</div>
-        <div class="div5">5</div>
-        <div class="div6">6</div>
-        <div class="div7">7</div>
-        <div class="div8">8</div>
-        <div class="div9">9</div>
-        <div class="div10">10</div>
+      
     </div>
 
 

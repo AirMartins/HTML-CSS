@@ -12,9 +12,13 @@
                 display: flex; /*ativa o Flexbox, organização por padrão e horizontal*/
                 height: 500px; 
                 flex-direction: row;
+                flex-wrap: wrap;/*cas os sonteiners excedam o tamando da tela e linha joga o excesso para linha abaixo*/
                 justify-content: center;
                 align-items: flex-start;
                 background-color: #dddddd;
+                align-content: space-around; /*alinhamento para todo conteúdo flex-end=abaixo, flex-start = cima, 
+                centrer = centralizado, space-between= destribiu na tela, space-around= distribui de forma igal na tela */
+                
                                
                
             }
@@ -33,7 +37,7 @@
 
             }
             .div14{
-                order: 2;/*vai ordenando as divs*/
+                order: 2;/*vai ordenando as divs, e quando não defino um valor por pardão o order e zero*/
             }
                
      

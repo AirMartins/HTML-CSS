@@ -1,0 +1,93 @@
+body{
+     margin: 0;
+     padding: 0;
+
+}
+.container{
+    display: flex;
+    width: 990px;/*largura */
+    background: black;
+    color: white;
+   
+   
+    
+    justify-content: space-between;
+
+}
+header{
+    display: flex;
+    height: 120px;
+    
+    
+
+    justify-content: center; /*centraliza o conteiner*/
+}
+.logo{
+    justify-content: center;   
+    display: flex;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    align-items: center;
+ 
+    
+
+}
+nav ul, nav li{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    
+}
+nav ul{
+    display: flex;
+    background: black;
+    margin: 0px;
+    padding: 0px;
+    height: 120px;
+   
+
+}
+nav a{
+    display: block;
+    padding: 15px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;    
+    text-decoration: none;
+    text-transform: uppercase;
+}
+nav .active a,
+nav a:hover{
+    color: white;
+    background-color: red;
+}
+#banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url('../images/Baner.jpg ');
+    background-position: center;
+    background-size: cover;
+    height: 670px;
+}
+
+
+.baner_headline{
+    flex: 1;
+    color: white;
+    margin: 10px;
+    margin-bottom: 0;
+    padding: 0px;
+    color: white;
+    text-align: justify;
+    font-size:small;
+}
+.banner_options{   
+    height: 310px;
+    background-color: red;
+
+    
+
+
+}

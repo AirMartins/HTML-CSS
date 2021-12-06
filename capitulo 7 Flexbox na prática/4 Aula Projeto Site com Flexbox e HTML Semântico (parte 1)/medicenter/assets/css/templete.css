@@ -75,17 +75,41 @@ nav a:hover{
 
 .baner_headline{
     flex: 1;
-    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
     margin: 10px;
     margin-bottom: 0;
     padding: 0px;
-    color: white;
-    text-align: justify;
+    ;
+    
     font-size:small;
 }
+.baner_headline h1{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 1px 1px 1px white;
+
+   
+    
+
+}
+.baner_headline h2,h3{
+    color: white;
+    text-align: justify;
+    font-size: 18px;
+    margin: 0px;
+    padding: opx;
+}
 .banner_options{   
+    flex: 1;
+    color: white;
+
     height: 310px;
-    background-color: red;
+    
 
     
 
